@@ -1,0 +1,23 @@
+.infoPage {
+  color: aqua;
+}
+
+.infoPage__btn {
+    background: transparent;
+    color: aqua;
+    font-weight: 600;
+    font-size: 1.2em;
+    border: unset;
+    cursor: pointer;
+}
+
+.infoPage__btn:hover {
+    color: aquamarine;
+}
+
+.infoPage__list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0;
+}
