@@ -1,0 +1,28 @@
+.playList {
+  color: bisque;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.listLink {
+  color: cornflowerblue;
+  cursor: pointer;
+}
+
+.listLink:hover {
+  color: rgb(72, 111, 184);
+}
+
+.listLink button {
+  text-align: left;
+  color: cornflowerblue;
+}
+
+.listLinks button:hover {
+  text-align: left;
+  color: rgb(72, 111, 184);
+}
